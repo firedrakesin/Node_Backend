@@ -1,0 +1,165 @@
+[
+    {
+        "title": "The Catcher in the Rye",
+        "description": "A classic novel by J.D. Salinger.",
+        "image": "catcher-in-the-rye.jpg",
+        "price": 12.99,
+        "tags": ["Coming of Age"]
+    },
+    {
+        "title": "To Kill a Mockingbird",
+        "description": "Harper Lee's timeless masterpiece.",
+        "image": "to-kill-a-mockingbird.jpg",
+        "price": 14.95,
+        "tags": ["Fiction"]
+    },
+    {
+        "title": "1984",
+        "description": "George Orwell's dystopian vision of the future.",
+        "image": "1984.jpg",
+        "price": 10.50,
+        "tags": ["Dystopia"]
+    },
+    {
+        "title": "Pride and Prejudice",
+        "description": "Jane Austen's romantic classic.",
+        "image": "pride-and-prejudice.jpg",
+        "price": 9.75,
+        "tags": ["Fiction", "Classic", "Romance"]
+    },
+    {
+        "title": "The Great Gatsby",
+        "description": "F. Scott Fitzgerald's tale of excess and illusion.",
+        "image": "the-great-gatsby.jpg",
+        "price": 11.25,
+        "tags": [ "Classic", "Jazz Age"]
+    },
+    {
+        "title": "Moby-Dick",
+        "description": "Herman Melville's epic adventure on the high seas.",
+        "image": "moby-dick.jpg",
+        "price": 13.20,
+        "tags": ["Adventure", "Sea"]
+    },
+    {
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "description": "J.K. Rowling's magical world of wizardry.",
+        "image": "harry-potter.jpg",
+        "price": 12.99,
+        "tags": ["Fiction", "Fantasy", "Magic"]
+    },
+    {
+        "title": "The Hobbit",
+        "description": "J.R.R. Tolkien's beloved tale of Bilbo Baggins.",
+        "image": "the-hobbit.jpg",
+        "price": 11.00,
+        "tags": ["Fiction", "Fantasy"]
+    },
+    {
+        "title": "The Alchemist",
+        "description": "Paulo Coelho's inspiring journey of self-discovery.",
+        "image": "the-alchemist.jpg",
+        "price": 10.95,
+        "tags": ["Fiction", "Inspirational", "Adventure"]
+    },
+    {
+        "title": "The Hunger Games",
+        "description": "Suzanne Collins' dystopian fight for survival.",
+        "image": "the-hunger-games.jpg",
+        "price": 9.99,
+        "tags": ["Fiction", "Dystopia", "Adventure"]
+    },
+    {
+        "title": "The Road",
+        "description": "Cormac McCarthy's post-apocalyptic father-son journey.",
+        "image": "the-road.jpg",
+        "price": 11.50,
+        "tags": ["Fiction", "Post-Apocalyptic", "Survival"]
+    },
+    {
+        "title": "The Da Vinci Code",
+        "description": "Dan Brown's thrilling art and mystery adventure.",
+        "image": "the-da-vinci-code.jpg",
+        "price": 12.75,
+        "tags": ["Fiction", "Mystery", "Thriller"]
+    },
+    {
+        "title": "The Shining",
+        "description": "Stephen King's classic tale of supernatural horror.",
+        "image": "the-shining.jpg",
+        "price": 13.25,
+        "tags": ["Fiction", "Horror", "Supernatural"]
+    },
+    {
+        "title": "The Old Man and the Sea",
+        "description": "Ernest Hemingway's timeless tale of man vs. nature.",
+        "image": "the-old-man-and-the-sea.jpg",
+        "price": 9.50,
+        "tags": ["Fiction", "Classic", "Adventure"]
+    },
+    {
+        "title": "The Lord of the Rings",
+        "description": "J.R.R. Tolkien's epic fantasy saga.",
+        "image": "the-lord-of-the-rings.jpg",
+        "price": 15.99,
+        "tags": ["Fiction", "Fantasy"]
+    },
+    {
+        "title": "The Chronicles of Narnia",
+        "description": "C.S. Lewis' enchanting world through the wardrobe.",
+        "image": "the-chronicles-of-narnia.jpg",
+        "price": 14.50,
+        "tags": ["Fiction", "Fantasy", "Children's"]
+    },
+    {
+        "title": "The Girl on the Train",
+        "description": "Paula Hawkins' gripping psychological thriller.",
+        "image": "the-girl-on-the-train.jpg",
+        "price": 12.75,
+        "tags": ["Thriller", "Mystery"]
+    },
+    {
+        "title": "Brave New World",
+        "description": "Aldous Huxley's vision of a future utopia or dystopia.",
+        "image": "brave-new-world.jpg",
+        "price": 11.80,
+        "tags": [ "Dystopia", "Sci-Fi"]
+    },
+    {
+        "title": "The Hitchhiker's Guide to the Galaxy",
+        "description": "Douglas Adams' hilarious cosmic adventure.",
+        "image": "hitchhikers-guide.jpg",
+        "price": 10.99,
+        "tags": ["Fiction", "Sci-Fi", "Humor"]
+    },
+    {
+        "title": "The Fault in Our Stars",
+        "description": "John Green's heartwarming tale of young love and tragedy.",
+        "image": "the-fault-in-our-stars.jpg",
+        "price": 9.99,
+        "tags": ["Romance", "Young Adult"]
+    },
+    {
+        "title": "Gone Girl",
+        "description": "Gillian Flynn's dark and twisty psychological thriller.",
+        "image": "gone-girl.jpg",
+        "price": 13.25,
+        "tags": ["Fiction", "Thriller", "Mystery"]
+    },
+    {
+        "title": "The Road Less Traveled",
+        "description": "M. Scott Peck's classic self-help and psychology book.",
+        "image": "the-road-less-traveled.jpg",
+        "price": 10.00,
+        "tags": ["Non-Fiction", "Self-Help", "Psychology"]
+    },
+    {
+        "title": "The Name of the Wind",
+        "description": "Patrick Rothfuss' fantasy epic of Kvothe's life story.",
+        "image": "name-of-the-wind.jpg",
+        "price": 14.99,
+        "tags": ["Fiction", "Fantasy", "Adventure"]
+    }
+]
+
+
