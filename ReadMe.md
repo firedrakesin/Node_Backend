@@ -13,8 +13,35 @@ This project is a RESTful API implemented in Node.js with MongoDB as the databas
 It provides the following features:
 
 ## API Endpoints
+(Asked in Assignment)
+1. ** This Endpoint uses MongoDB aggregate to Filter, Sort and Paginate the data and get all data
+
+   - Endpoint: `/v1/filterSortAndPaginate?tags=Fiction,Classic&sort=asc&page=1&limit=15`
+   - Method: GET
+   - Query Parameters: `tags (Fiction,Classic)`, `sort (value(asc,desc)), `page`, `limit`
+
+2. **Search Posts:** Search for posts based on keywords in the title and description.
+
+   - Endpoint: `/v1/searchItems?searchText=Fire&page=1&limit=4`
+   - Method: GET
+   - Query Parameters: `searchText`, `page`, `limit`
+
+3. **Filter Posts by Tags:** Retrieve posts filtered by tags.
+
+   - Endpoint: `/v1/filterByTag?tags=Tag11&page=1&limit=5`
+   - Method: GET
+   - Query Parameters: `tags`, `page`, `limit`
 
 
+4. ** Uploading files to Firebase bucket with their original file name
+
+   - Endpoint: `/bucket/firebase`
+   - Method: POST
+   - Request Body: Form data with the image file (key value(file))
+   - Headers : x-api-key, value(ThoseWithThisKeyCanInsertIntoFirebaseBucket)
+
+
+(Extra created by me)
 1. **Create Post:** Create a new post with fields like title, description, image, etc.
 
    - Endpoint: `/v1/createPost`
@@ -34,56 +61,26 @@ It provides the following features:
     - Method: GET
     - Query Parameters: NA
 
-4. **Search Posts:** Search for posts based on keywords in the title and description.
 
-   - Endpoint: `/v1/searchItems?searchText=Fire&page=1&limit=4`
-   - Method: GET
-   - Query Parameters: `searchText`, `page`, `limit`
-
-
-5. **Sort The data in ascending and descending order with pagination
-
- - Endpoint: `/v1/getSortedDataByPrice?page=1&limit=14&sort=asc`
- - Method: GET
- - Query Parameters: `sort (values(asc,desc))`, `page`, `limit`
-
-6. **Filter Posts by Tags:** Retrieve posts filtered by tags.
-
-   - Endpoint: `/v1/filterByTag?tags=Tag11&page=1&limit=5`
-   - Method: GET
-   - Query Parameters: `tags`, `page`, `limit`
-
-7.  **Upload Only Image:** Upload a post image (also has validation to check the image file) to a cloud service (e.g., EC2 or localserver ).
+4.  **Upload Only Image:** Upload a post image (also has validation to check the image file) to a cloud service (e.g., EC2 or localserver ).
 
    - Endpoint: `/v1/upload`
    - Method: POST
    - Request Body: Form data with the image file (key value(image))
    - Headers : x-api-key, value(FiredrakeSinsIsTheSampleAPIkey)
 
-8. ** Read the json file and import all the data from the json to MongoDB Atlas using Mongoose
+5. **Sort The data in ascending and descending order with pagination**
+
+ - Endpoint: `/v1/getSortedDataByPrice?page=1&limit=14&sort=asc`
+ - Method: GET
+ - Query Parameters: `sort (values(asc,desc))`, `page`, `limit`
+
+8. **Read the json file and import all the data from the json to MongoDB Atlas using Mongoose**
 
    - Endpoint: `/insert/samples`
    - Method: POST
    - Request Body: Form data with the image file (key value(image))
    - Headers : x-api-key, value(ThoseWithThisKeyCanInsertManyDataAtOnce)
-
-9. ** Uploading files to Firebase bucket with their original file name
-
-   - Endpoint: `/bucket/firebase`
-   - Method: POST
-   - Request Body: Form data with the image file (key value(file))
-   - Headers : x-api-key, value(ThoseWithThisKeyCanInsertIntoFirebaseBucket)
-
-
-10. ** This Endpoint uses MongoDB aggregate to Filter, Sort and Paginate the data
-
-   - Endpoint: `/v1/filterSortAndPaginate?tags=Fiction,Classic&sort=asc&page=1&limit=15`
-   - Method: GET
-   - Query Parameters: `tags (Fiction,Classic)`, `sort (value(asc,desc)), `page`, `limit`
-
-
-
-
 
 
    
@@ -100,8 +97,7 @@ It provides the following features:
 
 ## Deployment
 
-To deploy this API in a production environment, consider using services like Heroku, AWS, or DigitalOcean.
-Ensure that you configure environment variables for production.
+This is deployed using render live at this address using render - https://fire-node-api.onrender.com/ 
 
 ## Documentation
 
